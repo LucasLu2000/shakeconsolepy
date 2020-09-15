@@ -5,7 +5,7 @@ import os
 
 def lookupWords(index,filename):
   "All user to lookup word matches"
-  searchTerm=input("\nEnter word to look up, return to end:")
+  searchTerm=input("\nEnter word to look up, return to end: ")
 
   while searchTerm !="":
     positions=index.lookup(searchTerm)
