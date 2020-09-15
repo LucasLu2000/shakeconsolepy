@@ -17,7 +17,7 @@ def lookupWords(index,filename):
         print(line.strip())
     else:
       print(searchTerm,"not found,")
-    searchTerm=input("\nEnter word to look up, return to end:")
+    searchTerm=input("\nEnter word to look up, return to end: ")
 
 def printLines(book,lines):
   for line in lines:
